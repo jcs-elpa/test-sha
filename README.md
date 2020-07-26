@@ -8,6 +8,13 @@
   <img src="./etc/demo.gif" width="600" height="140"/>
 </p>
 
+This package let you test a list of Cryptographic hash function (CHF) provided
+by Emacs' secure hash algorithms.
+
+## Todo List
+
+- [] Customizable secure hash algorithms to list.
+
 ## Contribution
 
 If you would like to contribute to this project, you may either
