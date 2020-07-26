@@ -13,7 +13,7 @@ by Emacs' secure hash algorithms.
 
 ## Todo List
 
-- [] Customizable secure hash algorithms to list.
+- [ ] Customizable secure hash algorithms to list.
 
 ## Contribution
 
