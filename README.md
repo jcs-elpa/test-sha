@@ -4,6 +4,10 @@
 # test-sha
 > Test ground for secure hash algorithms.
 
+<p align="center">
+  <img src="./etc/demo.gif" width="600" height="140"/>
+</p>
+
 ## Contribution
 
 If you would like to contribute to this project, you may either
