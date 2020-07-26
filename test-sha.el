@@ -6,7 +6,7 @@
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Description: Test ground for secure hash algorithms.
 ;; Keyword: sha secure hash algorithm test
-;; Version: 0.0.1
+;; Version: 0.1.1
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://github.com/jcs-elpa/test-sha
 
