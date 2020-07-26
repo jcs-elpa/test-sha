@@ -41,7 +41,7 @@
   :link '(url-link :tag "Repository" "https://github.com/jcs-elpa/test-sha"))
 
 (defconst test-sha--title-prefix "String: "
-  "Header put infront of the search string.")
+  "Header put infront of the input string.")
 
 (defconst test-sha--format
   (vector (list "Type" 10 t)
