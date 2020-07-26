@@ -64,8 +64,8 @@
     "?" "|" " ")
   "List of key to bind.")
 
-(defvar-local test-sha--filter-timer nil
-  "Store filter timer function.")
+(defvar-local test-sha--refresh-timer nil
+  "Store refresh timer function.")
 
 (defvar test-sha-mode-map
   (let ((map (make-sparse-keymap)))
@@ -105,8 +105,8 @@ ADD-DEL-NUM : Addition or deletion number."
     (setq tabulated-list--header-string test-sha--title-prefix))
   (tabulated-list-revert)
   (tabulated-list-print-fake-header)
-  (when (timerp test-sha--filter-timer) (cancel-timer test-sha--filter-timer))
-  (setq test-sha--filter-timer
+  (when (timerp test-sha--refresh-timer) (cancel-timer test-sha--refresh-timer))
+  (setq test-sha--refresh-timer
         (run-with-idle-timer test-sha-delay nil 'test-sha--refresh)))
 
 (defun test-sha--get-entries ()
